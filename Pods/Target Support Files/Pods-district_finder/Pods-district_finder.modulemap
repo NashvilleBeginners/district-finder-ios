@@ -1,0 +1,6 @@
+framework module Pods_district_finder {
+  umbrella header "Pods-district_finder-umbrella.h"
+
+  export *
+  module * { export * }
+}
