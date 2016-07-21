@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0C586839ABB14E4D5664CB54 /* Pods_district_finderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7646336FE693D17A490E67D /* Pods_district_finderUITests.framework */; };
+		14B8E3CF1D416B6100A12464 /* BaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3CE1D416B6100A12464 /* BaseClient.swift */; };
+		14B8E3D11D416E9B00A12464 /* ApiClientResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3D01D416E9B00A12464 /* ApiClientResult.swift */; };
+		14B8E3D31D416ED700A12464 /* NeighborhoodsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3D21D416ED700A12464 /* NeighborhoodsClient.swift */; };
+		14B8E3D51D416EE600A12464 /* DistrictsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3D41D416EE600A12464 /* DistrictsClient.swift */; };
+		14B8E3D81D416F9900A12464 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3D71D416F9900A12464 /* BaseModel.swift */; };
+		14B8E3DA1D416FDF00A12464 /* Neighborhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3D91D416FDF00A12464 /* Neighborhood.swift */; };
+		14B8E3DC1D416FF300A12464 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3DB1D416FF300A12464 /* District.swift */; };
+		14B8E3DF1D41704F00A12464 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3DE1D41704F00A12464 /* Attributes.swift */; };
+		14B8E3E11D41710100A12464 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3E01D41710100A12464 /* Model.swift */; };
+		14B8E3E31D41713500A12464 /* Attributable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3E21D41713500A12464 /* Attributable.swift */; };
+		14B8E3E51D4172DD00A12464 /* DistrictAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3E41D4172DD00A12464 /* DistrictAttributes.swift */; };
+		14B8E3E71D4172FF00A12464 /* CouncilpersonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3E61D4172FF00A12464 /* CouncilpersonAttributes.swift */; };
+		14B8E3E91D41731800A12464 /* NeighborhoodAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3E81D41731800A12464 /* NeighborhoodAttributes.swift */; };
+		14B8E3EC1D41735300A12464 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3EB1D41735200A12464 /* Response.swift */; };
+		14B8E3EE1D41738400A12464 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3ED1D41738400A12464 /* BaseResponse.swift */; };
+		14B8E3F01D4173D000A12464 /* DistrictResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3EF1D4173D000A12464 /* DistrictResponse.swift */; };
+		14B8E3F21D4173DC00A12464 /* NeighborhoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8E3F11D4173DC00A12464 /* NeighborhoodResponse.swift */; };
 		5307BC69D211F5EFC20F578D /* Pods_district_finderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AACCF1B8584B632106AA216 /* Pods_district_finderTests.framework */; };
 		AD66657B1D41644D0086054D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66657A1D41644D0086054D /* MapKit.framework */; };
 		AD66657D1D4164530086054D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66657C1D4164530086054D /* CoreLocation.framework */; };
@@ -42,6 +59,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B8E3CE1D416B6100A12464 /* BaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClient.swift; sourceTree = "<group>"; };
+		14B8E3D01D416E9B00A12464 /* ApiClientResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClientResult.swift; sourceTree = "<group>"; };
+		14B8E3D21D416ED700A12464 /* NeighborhoodsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodsClient.swift; sourceTree = "<group>"; };
+		14B8E3D41D416EE600A12464 /* DistrictsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictsClient.swift; sourceTree = "<group>"; };
+		14B8E3D71D416F9900A12464 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		14B8E3D91D416FDF00A12464 /* Neighborhood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neighborhood.swift; sourceTree = "<group>"; };
+		14B8E3DB1D416FF300A12464 /* District.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		14B8E3DE1D41704F00A12464 /* Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		14B8E3E01D41710100A12464 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		14B8E3E21D41713500A12464 /* Attributable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributable.swift; sourceTree = "<group>"; };
+		14B8E3E41D4172DD00A12464 /* DistrictAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictAttributes.swift; sourceTree = "<group>"; };
+		14B8E3E61D4172FF00A12464 /* CouncilpersonAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncilpersonAttributes.swift; sourceTree = "<group>"; };
+		14B8E3E81D41731800A12464 /* NeighborhoodAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodAttributes.swift; sourceTree = "<group>"; };
+		14B8E3EB1D41735200A12464 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		14B8E3ED1D41738400A12464 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		14B8E3EF1D4173D000A12464 /* DistrictResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictResponse.swift; sourceTree = "<group>"; };
+		14B8E3F11D4173DC00A12464 /* NeighborhoodResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodResponse.swift; sourceTree = "<group>"; };
 		17942C0E6DE500409DB1E780 /* Pods-district_finderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-district_finderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-district_finderTests/Pods-district_finderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B412E379AE97F9378BBFCC3 /* Pods-district_finderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-district_finderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-district_finderTests/Pods-district_finderTests.release.xcconfig"; sourceTree = "<group>"; };
 		46F33F60B63ADA45223B2859 /* Pods-district_finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-district_finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-district_finder/Pods-district_finder.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +135,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B8E3CD1D416B3600A12464 /* ApiClients */ = {
+			isa = PBXGroup;
+			children = (
+				14B8E3CE1D416B6100A12464 /* BaseClient.swift */,
+				14B8E3D01D416E9B00A12464 /* ApiClientResult.swift */,
+				14B8E3D21D416ED700A12464 /* NeighborhoodsClient.swift */,
+				14B8E3D41D416EE600A12464 /* DistrictsClient.swift */,
+			);
+			name = ApiClients;
+			sourceTree = "<group>";
+		};
+		14B8E3D61D416F3000A12464 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14B8E3D71D416F9900A12464 /* BaseModel.swift */,
+				14B8E3D91D416FDF00A12464 /* Neighborhood.swift */,
+				14B8E3DB1D416FF300A12464 /* District.swift */,
+				14B8E3E01D41710100A12464 /* Model.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		14B8E3DD1D41703F00A12464 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				14B8E3DE1D41704F00A12464 /* Attributes.swift */,
+				14B8E3E21D41713500A12464 /* Attributable.swift */,
+				14B8E3E41D4172DD00A12464 /* DistrictAttributes.swift */,
+				14B8E3E61D4172FF00A12464 /* CouncilpersonAttributes.swift */,
+				14B8E3E81D41731800A12464 /* NeighborhoodAttributes.swift */,
+			);
+			name = Attributes;
+			sourceTree = "<group>";
+		};
+		14B8E3EA1D41734400A12464 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				14B8E3EB1D41735200A12464 /* Response.swift */,
+				14B8E3ED1D41738400A12464 /* BaseResponse.swift */,
+				14B8E3EF1D4173D000A12464 /* DistrictResponse.swift */,
+				14B8E3F11D4173DC00A12464 /* NeighborhoodResponse.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
 		37308EAB72032625B4FE029E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +220,10 @@
 		AD8D551E1D4049150092C435 /* district_finder */ = {
 			isa = PBXGroup;
 			children = (
+				14B8E3EA1D41734400A12464 /* Responses */,
+				14B8E3DD1D41703F00A12464 /* Attributes */,
+				14B8E3D61D416F3000A12464 /* Models */,
+				14B8E3CD1D416B3600A12464 /* ApiClients */,
 				AD8D551F1D4049150092C435 /* AppDelegate.swift */,
 				AD8D55211D4049150092C435 /* ViewController.swift */,
 				AD8D55231D4049150092C435 /* Main.storyboard */,
@@ -189,12 +272,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8D55441D4049150092C435 /* Build configuration list for PBXNativeTarget "district_finder" */;
 			buildPhases = (
+				9C73846451F81336377C55CF /* 📦 Check Pods Manifest.lock */,
 				2E9372BBC2059C746621A090 /* [CP] Check Pods Manifest.lock */,
 				AD8D55181D4049150092C435 /* Sources */,
 				AD8D55191D4049150092C435 /* Frameworks */,
 				AD8D551A1D4049150092C435 /* Resources */,
 				912076C4BCE6988B50647BBB /* [CP] Embed Pods Frameworks */,
 				E750395742699851BFCD6068 /* [CP] Copy Pods Resources */,
+				815F59A3E25EF640FC6D3509 /* 📦 Embed Pods Frameworks */,
+				2FFB37C674C29C330F11F3B3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,12 +295,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8D55471D4049160092C435 /* Build configuration list for PBXNativeTarget "district_finderTests" */;
 			buildPhases = (
+				3408D22A411CE5BDFC7D8382 /* 📦 Check Pods Manifest.lock */,
 				BDDB063B56CB7A3001DC7E34 /* [CP] Check Pods Manifest.lock */,
 				AD8D552C1D4049150092C435 /* Sources */,
 				AD8D552D1D4049150092C435 /* Frameworks */,
 				AD8D552E1D4049150092C435 /* Resources */,
 				9F644C00299723112E372D79 /* [CP] Embed Pods Frameworks */,
 				3CB3854CC8A7F6241A92C1A9 /* [CP] Copy Pods Resources */,
+				E65366D04D0DD43BF07BAFEA /* 📦 Embed Pods Frameworks */,
+				B0FCEED4E257EDB88D8E318A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,11 +319,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8D554A1D4049160092C435 /* Build configuration list for PBXNativeTarget "district_finderUITests" */;
 			buildPhases = (
+				C1BB532C33AD1E8B1295A63B /* 📦 Check Pods Manifest.lock */,
 				AD1B19698DA6A34EC3013EE4 /* [CP] Check Pods Manifest.lock */,
 				AD8D55371D4049150092C435 /* Sources */,
 				AD8D55381D4049150092C435 /* Frameworks */,
 				AD8D55391D4049150092C435 /* Resources */,
 				93426653573846D8E49E5DB8 /* [CP] Copy Pods Resources */,
+				F7DDD683295BF42D218CEA17 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +430,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		2FFB37C674C29C330F11F3B3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finder/Pods-district_finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3408D22A411CE5BDFC7D8382 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3CB3854CC8A7F6241A92C1A9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +473,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finderTests/Pods-district_finderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815F59A3E25EF640FC6D3509 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finder/Pods-district_finder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		912076C4BCE6988B50647BBB /* [CP] Embed Pods Frameworks */ = {
@@ -384,6 +520,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finderUITests/Pods-district_finderUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9C73846451F81336377C55CF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		9F644C00299723112E372D79 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,6 +565,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		B0FCEED4E257EDB88D8E318A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finderTests/Pods-district_finderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BDDB063B56CB7A3001DC7E34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +593,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BB532C33AD1E8B1295A63B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E65366D04D0DD43BF07BAFEA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finderTests/Pods-district_finderTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E750395742699851BFCD6068 /* [CP] Copy Pods Resources */ = {
@@ -444,6 +640,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finder/Pods-district_finder-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F7DDD683295BF42D218CEA17 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-district_finderUITests/Pods-district_finderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -451,8 +662,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B8E3F21D4173DC00A12464 /* NeighborhoodResponse.swift in Sources */,
+				14B8E3D31D416ED700A12464 /* NeighborhoodsClient.swift in Sources */,
+				14B8E3DC1D416FF300A12464 /* District.swift in Sources */,
 				AD8D55221D4049150092C435 /* ViewController.swift in Sources */,
+				14B8E3EC1D41735300A12464 /* Response.swift in Sources */,
+				14B8E3E11D41710100A12464 /* Model.swift in Sources */,
+				14B8E3F01D4173D000A12464 /* DistrictResponse.swift in Sources */,
+				14B8E3E71D4172FF00A12464 /* CouncilpersonAttributes.swift in Sources */,
+				14B8E3D51D416EE600A12464 /* DistrictsClient.swift in Sources */,
+				14B8E3E91D41731800A12464 /* NeighborhoodAttributes.swift in Sources */,
+				14B8E3DA1D416FDF00A12464 /* Neighborhood.swift in Sources */,
+				14B8E3EE1D41738400A12464 /* BaseResponse.swift in Sources */,
+				14B8E3E51D4172DD00A12464 /* DistrictAttributes.swift in Sources */,
+				14B8E3CF1D416B6100A12464 /* BaseClient.swift in Sources */,
 				AD8D554E1D404E770092C435 /* DistrictInfo.swift in Sources */,
+				14B8E3DF1D41704F00A12464 /* Attributes.swift in Sources */,
+				14B8E3E31D41713500A12464 /* Attributable.swift in Sources */,
+				14B8E3D11D416E9B00A12464 /* ApiClientResult.swift in Sources */,
+				14B8E3D81D416F9900A12464 /* BaseModel.swift in Sources */,
 				AD8D55201D4049150092C435 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +827,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = district_finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.reax.district-finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -611,6 +840,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = district_finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.reax.district-finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
