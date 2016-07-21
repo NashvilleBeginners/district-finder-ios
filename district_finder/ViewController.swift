@@ -69,14 +69,27 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
     
     // MARK: Search bar methods
     
-    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
-        print("search button clicked")
-        
-    }
-    
     func configureSearchBar() {
         searchBar.delegate = self
         searchBar.placeholder = "Enter an address..."
+    }
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        print("search button clicked")
+        let userInput: String = searchBar.text!
+        convertUserInputToCoordinate(userInput)
+    }
+    
+    func convertUserInputToCoordinate(input: String) {
+        CLGeocoder().geocodeAddressString(input) { (placemarks, error) in
+            let placemark: CLPlacemark;
+            if (error != nil) {
+                print("An error has occurred: \(error)")
+            } else {
+                placemark = placemarks![0]
+                print(placemark.location?.coordinate)
+            }
+        }
     }
     
     // MARK: Map view methods

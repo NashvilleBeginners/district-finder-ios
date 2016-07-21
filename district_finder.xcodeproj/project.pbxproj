@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C586839ABB14E4D5664CB54 /* Pods_district_finderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7646336FE693D17A490E67D /* Pods_district_finderUITests.framework */; };
 		5307BC69D211F5EFC20F578D /* Pods_district_finderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AACCF1B8584B632106AA216 /* Pods_district_finderTests.framework */; };
-		AD6665791D4138EA0086054D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6665781D4138EA0086054D /* SearchBar.swift */; };
 		AD66657B1D41644D0086054D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66657A1D41644D0086054D /* MapKit.framework */; };
 		AD66657D1D4164530086054D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66657C1D4164530086054D /* CoreLocation.framework */; };
 		AD66657F1D416C1E0086054D /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AD66657E1D416C1E0086054D /* default.gpx */; };
@@ -50,7 +49,6 @@
 		5C9F7AA5395D2CFA59FBAFA1 /* Pods-district_finderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-district_finderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-district_finderUITests/Pods-district_finderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6567176EAC9C945A4C949348 /* Pods-district_finderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-district_finderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-district_finderUITests/Pods-district_finderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D6A4741505BBBF717F2450 /* Pods_district_finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_district_finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD6665781D4138EA0086054D /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		AD66657A1D41644D0086054D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AD66657C1D4164530086054D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		AD66657E1D416C1E0086054D /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = default.gpx; path = district_finder/default.gpx; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				AD8D55281D4049150092C435 /* LaunchScreen.storyboard */,
 				AD8D552B1D4049150092C435 /* Info.plist */,
 				AD8D554D1D404E770092C435 /* DistrictInfo.swift */,
-				AD6665781D4138EA0086054D /* SearchBar.swift */,
 			);
 			path = district_finder;
 			sourceTree = "<group>";
@@ -455,7 +452,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8D55221D4049150092C435 /* ViewController.swift in Sources */,
-				AD6665791D4138EA0086054D /* SearchBar.swift in Sources */,
 				AD8D554E1D404E770092C435 /* DistrictInfo.swift in Sources */,
 				AD8D55201D4049150092C435 /* AppDelegate.swift in Sources */,
 			);
