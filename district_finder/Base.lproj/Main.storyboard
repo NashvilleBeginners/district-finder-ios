@@ -21,16 +21,33 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PRi-ac-Doz">
                                 <rect key="frame" x="0.0" y="28" width="600" height="475"/>
                             </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENf-dK-Gpu" customClass="DistrictInfo" customModule="district_finder" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="503" width="600" height="97"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="District Information:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vp-YF-5fy">
+                                        <rect key="frame" x="19" y="8" width="562" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ENf-dK-Gpu" secondAttribute="trailing" constant="-20" id="HYy-F7-Vz3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ENf-dK-Gpu" secondAttribute="bottom" id="Rtn-a1-Skr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PRi-ac-Doz" secondAttribute="trailing" constant="-20" id="aba-Dd-u7y"/>
+                            <constraint firstItem="ENf-dK-Gpu" firstAttribute="top" secondItem="PRi-ac-Doz" secondAttribute="bottom" id="bFE-q7-uib"/>
+                            <constraint firstItem="ENf-dK-Gpu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="gFR-1v-gNe"/>
                             <constraint firstItem="PRi-ac-Doz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="gqN-aD-5br"/>
                             <constraint firstItem="PRi-ac-Doz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="jS7-BH-7mh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PRi-ac-Doz" secondAttribute="bottom" constant="97" id="yEC-J1-Jjf"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="districtInfoView" destination="ENf-dK-Gpu" id="QRq-t8-MUJ"/>
                         <outlet property="mapView" destination="PRi-ac-Doz" id="h45-KR-RKp"/>
                     </connections>
                 </viewController>

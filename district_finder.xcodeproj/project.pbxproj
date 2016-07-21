@@ -14,6 +14,7 @@
 		AD8D552A1D4049150092C435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8D55281D4049150092C435 /* LaunchScreen.storyboard */; };
 		AD8D55351D4049150092C435 /* district_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D55341D4049150092C435 /* district_finderTests.swift */; };
 		AD8D55401D4049150092C435 /* district_finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D553F1D4049150092C435 /* district_finderUITests.swift */; };
+		AD8D554E1D404E770092C435 /* DistrictInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D554D1D404E770092C435 /* DistrictInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AD8D553B1D4049150092C435 /* district_finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = district_finderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8D553F1D4049150092C435 /* district_finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = district_finderUITests.swift; sourceTree = "<group>"; };
 		AD8D55411D4049150092C435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8D554D1D404E770092C435 /* DistrictInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AD8D55261D4049150092C435 /* Assets.xcassets */,
 				AD8D55281D4049150092C435 /* LaunchScreen.storyboard */,
 				AD8D552B1D4049150092C435 /* Info.plist */,
+				AD8D554D1D404E770092C435 /* DistrictInfo.swift */,
 			);
 			path = district_finder;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8D55221D4049150092C435 /* ViewController.swift in Sources */,
+				AD8D554E1D404E770092C435 /* DistrictInfo.swift in Sources */,
 				AD8D55201D4049150092C435 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

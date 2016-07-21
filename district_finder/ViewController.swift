@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     // MARK: Properties
     
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var districtInfoView: DistrictInfo!
     
     override func viewDidLoad() {
         super.viewDidLoad()
