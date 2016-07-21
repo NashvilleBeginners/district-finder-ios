@@ -14,11 +14,13 @@ class ViewController: UIViewController {
     // MARK: Properties
     
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var districtInfoView: DistrictInfo!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        searchBar.placeholder = "Enter an address..."
     }
 
     override func didReceiveMemoryWarning() {

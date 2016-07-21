@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PRi-ac-Doz">
-                                <rect key="frame" x="0.0" y="28" width="600" height="475"/>
+                                <rect key="frame" x="0.0" y="65" width="600" height="438"/>
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENf-dK-Gpu" customClass="DistrictInfo" customModule="district_finder" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="503" width="600" height="97"/>
@@ -31,24 +31,32 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Jjh-tU-5Xx">
+                                <rect key="frame" x="0.0" y="21" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Jjh-tU-5Xx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="5rk-LC-e5Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ENf-dK-Gpu" secondAttribute="trailing" constant="-20" id="HYy-F7-Vz3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ENf-dK-Gpu" secondAttribute="bottom" id="Rtn-a1-Skr"/>
+                            <constraint firstItem="PRi-ac-Doz" firstAttribute="top" secondItem="Jjh-tU-5Xx" secondAttribute="bottom" id="VSu-kh-KwQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PRi-ac-Doz" secondAttribute="trailing" constant="-20" id="aba-Dd-u7y"/>
                             <constraint firstItem="ENf-dK-Gpu" firstAttribute="top" secondItem="PRi-ac-Doz" secondAttribute="bottom" id="bFE-q7-uib"/>
                             <constraint firstItem="ENf-dK-Gpu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="gFR-1v-gNe"/>
-                            <constraint firstItem="PRi-ac-Doz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="gqN-aD-5br"/>
+                            <constraint firstItem="PRi-ac-Doz" firstAttribute="top" secondItem="Jjh-tU-5Xx" secondAttribute="bottom" id="hkH-iR-aRV"/>
                             <constraint firstItem="PRi-ac-Doz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="jS7-BH-7mh"/>
+                            <constraint firstItem="Jjh-tU-5Xx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="1" id="mUg-Qa-GUx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jjh-tU-5Xx" secondAttribute="trailing" constant="-20" id="tb8-dT-grg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PRi-ac-Doz" secondAttribute="bottom" constant="97" id="yEC-J1-Jjf"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="districtInfoView" destination="ENf-dK-Gpu" id="QRq-t8-MUJ"/>
                         <outlet property="mapView" destination="PRi-ac-Doz" id="h45-KR-RKp"/>
+                        <outlet property="searchBar" destination="Jjh-tU-5Xx" id="6cA-Ch-z6U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
