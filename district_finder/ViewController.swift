@@ -18,6 +18,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
     @IBOutlet weak var districtInfoView: DistrictInfo!
     
     var locationManager: CLLocationManager = CLLocationManager()
+    var mostRecentAnnotation: MKAnnotation? = nil
     
     
     // MARK: View controller methods
@@ -117,7 +118,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
         let annotation = MKPointAnnotation()
         annotation.coordinate = location.coordinate
         annotation.title = "Search result"
+        clearAnnotations()
+        mostRecentAnnotation = annotation
         mapView.addAnnotation(annotation)
+    }
+    
+    func clearAnnotations() {
+        if (mostRecentAnnotation != nil) {
+            mapView.removeAnnotation(mostRecentAnnotation!)
+        }
     }
 
 
