@@ -93,6 +93,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
             } else {
                 placemark = placemarks![0]
                 print(placemark.location?.coordinate)
+                self.dropPinOnLocation(placemark.location!)
             }
         }
     }
@@ -104,8 +105,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
         mapView.showsUserLocation = true
         mapView.userInteractionEnabled = true
         mapView.mapType = .Standard
-        mapView.zoomEnabled = true
-        mapView.scrollEnabled = true
     }
     
     func centerMapOnLocation(location: CLLocation) {
@@ -113,5 +112,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.3, longitudeDelta: 0.3))
         self.mapView.setRegion(region, animated: true)
     }
+    
+    func dropPinOnLocation(location: CLLocation) {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = location.coordinate
+        annotation.title = "Search result"
+        mapView.addAnnotation(annotation)
+    }
+
 
 }
