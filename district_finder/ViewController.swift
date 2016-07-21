@@ -78,6 +78,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
         print("search button clicked")
         let userInput: String = searchBar.text!
         convertUserInputToCoordinate(userInput)
+        searchBar.resignFirstResponder()
+    }
+    
+    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
     }
     
     func convertUserInputToCoordinate(input: String) {
